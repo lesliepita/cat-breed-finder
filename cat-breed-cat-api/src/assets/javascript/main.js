@@ -1,4 +1,4 @@
-import { getData } from "./api.js";
+import { getData } from "../javascript/api";
 
 window.addEventListener("load", async () => {
   try {
