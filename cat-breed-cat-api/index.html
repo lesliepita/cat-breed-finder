@@ -1,12 +1,44 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cat api</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="public/assets/css/navstyle.css" />
+  <link rel="stylesheet" href="public/assets/css/mainstyle.css">
+  <link rel="stylesheet" href="public/assets/css/apistyle.css">
+  <link rel="stylesheet" href="public/assets/css/extra.css" />
+</head>
+<body>
+  <header class="desktop">
+    <nav class="nav">
+      <div class="overlap">
+        <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
+        <form class="search-bar" role="search">
+          <div class="searcher">
+            <div class="overlap-group">
+              <div class="len">
+                <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg"
+                  alt="Search icon" />
+              </div>
+              <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper"
+                aria-label="Search for breed cat" />
+              <ul id="suggestions" class="suggestions-box"></ul>
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1 class="title">Cat Breed Finder</h1>
     <div id="app"></div>
-    <script type="module" src="src/javascript/main.js"></script>
-  </body>
+    <a href="index.html"><img class="arrow-up" src="public/assets/images/arrow-circle-up-svgrepo-com.svg" /></a>
+  </main>
+  <aside>
+  </aside>
+  <footer></footer>
+  <script type="module" src="src/javascript/main.js"></script>
+</body>
+
 </html>

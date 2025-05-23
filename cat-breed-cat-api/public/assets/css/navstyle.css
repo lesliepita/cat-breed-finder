@@ -1,0 +1,76 @@
+.desktop .overlap {
+  position: fixed;
+  width: 1440px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #f1ddff;
+}
+
+.desktop .cat {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 18px;
+  left: 32px;
+}
+
+.desktop .search-bar {
+  position: absolute;
+  width: 662px;
+  height: 68px;
+  top: 21px;
+  left: 371px;
+}
+
+.desktop .searcher {
+  width: 664px;
+  height: 68px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 662px;
+  height: 68px;
+  border-radius: 40px;
+}
+
+.desktop .len {
+  position: absolute;
+  width: 662px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 7px;
+  left: 11px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  width: 570px;
+  height: 24px;
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: #000000;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.desktop .text-wrapper::placeholder {
+  color: #bababa;
+}
