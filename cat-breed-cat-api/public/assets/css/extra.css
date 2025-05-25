@@ -40,3 +40,16 @@
 .vector {
   cursor: pointer;
 }
+
+.load-button {
+  color: #4a148c;
+  font-size: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  background-color: #f1ddff;
+  margin-left: 600px;
+}

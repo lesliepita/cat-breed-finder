@@ -36,23 +36,29 @@
   cursor: pointer;
 }
 
+.breed-container {
+  overflow: hidden;
+}
+
 .breed-image {
   width: 400px;
   height: 400px;
-  object-fit: cover;
-  margin-bottom: 15px;
+  object-fit: contain;
+  object-position: center;
+  background-color: #f1ddff;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-  object-view-box: inset(0%);
-  transition: all 0.75s;
+  margin: 0 auto 15px auto;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+  transform-origin: center center;
 }
 
-.breed-image:hover {
-  object-view-box: inset(20%);
+
+.breed-image.zoomed {
+  transform: scale(1.8);
+  cursor: zoom-out;
 }
 
 .breed-info-container {
