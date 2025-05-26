@@ -7,27 +7,26 @@
   <link rel="stylesheet" href="public/assets/css/mainstyle.css">
   <link rel="stylesheet" href="public/assets/css/apistyle.css">
   <link rel="stylesheet" href="public/assets/css/extra.css" />
+  <link rel="stylesheet" href="public/assets/css/footer.css">
 </head>
 <body>
   <header class="desktop">
-    <nav class="nav">
-      <div class="overlap">
-        <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
-        <form class="search-bar" role="search">
-          <div class="searcher">
-            <div class="overlap-group">
-              <div class="len">
-                <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg"
-                  alt="Search icon" />
-              </div>
-              <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper"
-                aria-label="Search for breed cat" />
-              <ul id="suggestions" class="suggestions-box"></ul>
-            </div>
+<nav class="nav">
+  <div class="overlap">
+    <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
+    <form class="search-bar" role="search">
+      <div class="searcher">
+        <div class="overlap-group">
+          <div class="len">
+            <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg" alt="Search icon" />
           </div>
-        </form>
+          <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper" aria-label="Search for breed cat" />
+          <ul id="suggestions" class="suggestions-box"></ul>
+        </div>
       </div>
-    </nav>
+    </form>
+  </div>
+</nav>
   </header>
   <main>
     <h1 class="title">Cat Breed Finder</h1>
@@ -38,7 +37,16 @@
   <aside>
   </aside>
   <footer>
-    
+    <p class="footer-credit">
+    All cat-related content and images on this site are provided by 
+    <a href="https://www.thecatapi.com/" target="_blank" rel="noopener noreferrer">TheCatAPI</a>.
+  </p>
+   <div class="follow">
+  <span class="follow-text">Follow me</span>
+  <a href="https://github.com/lesliepita" target="_blank" rel="noopener noreferrer">
+    <img id="me" src="public/assets/images/github-142-svgrepo-com.svg" alt="GitHub logo" />
+  </a>
+</div>
   </footer>
   <script type="module" src="src/javascript/main.js"></script>
 </body>
