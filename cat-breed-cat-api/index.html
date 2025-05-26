@@ -8,28 +8,42 @@
   <link rel="stylesheet" href="public/assets/css/apistyle.css">
   <link rel="stylesheet" href="public/assets/css/extra.css" />
   <link rel="stylesheet" href="public/assets/css/footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <header class="desktop">
-<nav class="nav">
-  <div class="overlap">
-    <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
-    <form class="search-bar" role="search">
-      <div class="searcher">
-        <div class="overlap-group">
-          <div class="len">
-            <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg" alt="Search icon" />
+    <nav class="nav">
+      <div class="overlap">
+        <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
+        <form class="search-bar" role="search">
+          <div class="searcher">
+            <div class="overlap-group">
+              <div class="len">
+                <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg"
+                  alt="Search icon" />
+              </div>
+              <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper"
+                aria-label="Search for breed cat" />
+              <ul id="suggestions" class="suggestions-box"></ul>
+            </div>
           </div>
-          <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper" aria-label="Search for breed cat" />
-          <ul id="suggestions" class="suggestions-box"></ul>
-        </div>
+        </form>
       </div>
-    </form>
-  </div>
-</nav>
+    </nav>
   </header>
   <main>
     <h1 class="title">Cat Breed Finder</h1>
+    <div id="catCarousel" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="2700">
+      <div class="carousel-inner" id="carousel-inner"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#catCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#catCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <div id="app"></div>
     <button id="load-more" class="load-button">Load More</button>
     <a href="index.html"><img class="arrow-up" src="public/assets/images/arrow-circle-up-svgrepo-com.svg" /></a>
@@ -38,16 +52,17 @@
   </aside>
   <footer>
     <p class="footer-credit">
-    All cat-related content and images on this site are provided by 
-    <a href="https://www.thecatapi.com/" target="_blank" rel="noopener noreferrer">TheCatAPI</a>.
-  </p>
-   <div class="follow">
-  <span class="follow-text">Follow me</span>
-  <a href="https://github.com/lesliepita" target="_blank" rel="noopener noreferrer">
-    <img id="me" src="public/assets/images/github-142-svgrepo-com.svg" alt="GitHub logo" />
-  </a>
-</div>
+      All cat-related content and images on this site are provided by
+      <a href="https://www.thecatapi.com/" target="_blank" rel="noopener noreferrer">TheCatAPI</a>.
+    </p>
+    <div class="follow">
+      <span class="follow-text">Follow me</span>
+      <a href="https://github.com/lesliepita" target="_blank" rel="noopener noreferrer">
+        <img id="me" src="public/assets/images/github-142-svgrepo-com.svg" alt="GitHub logo" />
+      </a>
+    </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script type="module" src="src/javascript/main.js"></script>
 </body>
 </html>

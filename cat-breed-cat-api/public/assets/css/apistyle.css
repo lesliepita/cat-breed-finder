@@ -13,11 +13,11 @@
   font-family: "Oswald", sans-serif;
   color: #a08a8a;
   text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     0.15px  1px 0 #000;
-  text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.15);
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    0.15px 1px 0 #000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   font-size: 25px;
   margin-bottom: 10px;
   text-align: center;
@@ -51,7 +51,7 @@
   height: 400px;
   object-fit: contain;
   object-position: center;
-  background-color: #f1ddff;
+  background-color: #ffffff;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: block;

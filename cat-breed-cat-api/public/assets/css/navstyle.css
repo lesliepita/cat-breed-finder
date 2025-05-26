@@ -33,6 +33,7 @@
   width: 662px;
   height: 68px;
   border-radius: 40px;
+  box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 .desktop .len {
@@ -73,4 +74,12 @@
 
 .desktop .text-wrapper::placeholder {
   color: #bababa;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
 }

@@ -9,12 +9,12 @@
   color: #a08a8a;
   font-size: 48px;
   text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     0.15px  1px 0 #000;
-  text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.15);
-  text-align: center; 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    0.15px 1px 0 #000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
 
 #suggestions {
@@ -56,11 +56,11 @@
 .load-button {
   color: #a08a8a;
   text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     0.15px  1px 0 #000;
-  text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.15);
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    0.15px 1px 0 #000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   font-size: 30px;
   margin-bottom: 10px;
   border-radius: 10px;

@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const pageSize = 9;
+const pageSize = 6;
 let allBreeds = [];
 let renderListFunction;
 
