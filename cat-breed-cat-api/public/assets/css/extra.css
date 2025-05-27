@@ -17,28 +17,6 @@
   text-align: center;
 }
 
-#suggestions {
-  list-style: none;
-  margin-top: 5px;
-  padding: 0;
-  background-color: #fff;
-  max-height: 200px;
-  overflow-y: auto;
-  border-radius: 5px;
-  position: absolute;
-  width: 100%;
-  z-index: 1000;
-}
-
-#suggestions li {
-  padding: 8px;
-  font-size: 16px;
-}
-
-#suggestions li:hover {
-  background-color: #f0f0f0;
-}
-
 .arrow-up {
   position: fixed;
   width: 61px;
@@ -49,8 +27,10 @@
   z-index: 1000;
 }
 
-.vector {
-  cursor: pointer;
+@media (max-width: 768px) {
+  .arrow-up {
+    display: none;
+  }
 }
 
 .load-button {
@@ -62,14 +42,28 @@
     0.15px 1px 0 #000;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   font-size: 30px;
-  margin-bottom: 10px;
+  margin: 20px auto;
   border-radius: 10px;
-  padding: 0px 60px 0px;
+  padding: 10px 60px;
   border: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   text-align: center;
   font-family: "Oswald", sans-serif;
   background-color: #f1ddff;
-  margin-left: 560px;
   cursor: pointer;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .load-button {
+    font-size: 24px;
+    padding: 10px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .load-button {
+    font-size: 20px;
+    padding: 8px 30px;
+  }
 }
