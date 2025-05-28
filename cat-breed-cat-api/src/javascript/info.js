@@ -1,12 +1,19 @@
-export function renderList(data) {
+export function renderList(breeds, center = false) {
   const app = document.getElementById("app");
   app.innerHTML = "";
-  if (data.length === 0) {
+
+  if (center) {
+    app.classList.add("centered-result");
+  } else {
+    app.classList.remove("centered-result");
+  }
+
+  if (breeds.length === 0) {
     app.textContent = "No breeds found.";
     return;
   }
 
-  data.forEach(breed => {
+  breeds.forEach(breed => {
     const breedDiv = renderBreed(breed);
     app.appendChild(breedDiv);
   });
@@ -65,13 +72,14 @@ function renderBreed(breed) {
     lifeSpan.classList.add("breed-lifespan");
     infoContainer.appendChild(lifeSpan);
   }
-  
+
   if (breed.weight && breed.weight.metric) {
-  const weight = document.createElement("p");
-  weight.textContent = `Weight: ${breed.weight.metric} kg`;
-  weight.classList.add("breed-weight");
-  infoContainer.appendChild(weight);
-}
+    const weight = document.createElement("p");
+    weight.textContent = `Weight: ${breed.weight.metric} kg`;
+    weight.classList.add("breed-weight");
+    infoContainer.appendChild(weight);
+  }
+
   if (breed.intelligence !== undefined) {
     const intelligence = document.createElement("p");
     intelligence.textContent = `Intelligence: ${breed.intelligence}`;
@@ -105,3 +113,4 @@ function renderBreed(breed) {
   container.appendChild(infoContainer);
   return container;
 }
+

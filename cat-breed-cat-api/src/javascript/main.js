@@ -29,33 +29,3 @@ const yearSpan = document.getElementById("year-span");
 
 yearSpan.textContent = `${startYear}${currentYear !== startYear ? "–" + currentYear : ""}`;
 
-document.addEventListener("DOMContentLoaded", () => {
-  const mobileSearchIcon = document.getElementById("mobile-search-icon");
-  const searchBar = document.querySelector(".search-bar");
-
-  if (mobileSearchIcon && searchBar) {
-    mobileSearchIcon.addEventListener("click", () => {
-      searchBar.classList.toggle("active");
-      if (searchBar.classList.contains("active")) {
-        document.getElementById("search-input").focus();
-      }
-    });
-
-    document.addEventListener("click", (event) => {
-      if (
-        !searchBar.contains(event.target) &&
-        !mobileSearchIcon.contains(event.target)
-      ) {
-        searchBar.classList.remove("active");
-      }
-    });
-  }
-});
-document.addEventListener('DOMContentLoaded', () => {
-  const mobileSearchIcon = document.getElementById('mobile-search-icon');
-  const searchBar = document.querySelector('.desktop .search-bar');
-
-  mobileSearchIcon.addEventListener('click', () => {
-    searchBar.classList.toggle('active');
-  });
-});

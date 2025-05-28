@@ -6,7 +6,6 @@ export function initCatCarousel() {
 
   const fixedImageUrl = "https://cdn2.thecatapi.com/images/1ac.gif";
 
-
   const fixedDiv = document.createElement("div");
   fixedDiv.className = "carousel-item active";
   fixedDiv.innerHTML = `
@@ -54,26 +53,5 @@ function displayResults(results) {
     resultsContainer.innerHTML = "";
     carousel.style.display = "block";
   }
-}
-
-const searchInput = document.getElementById("search-input");
-searchInput.addEventListener("input", async () => {
-  const query = searchInput.value.trim().toLowerCase();
-
-  if (!query) {
-    document.getElementById("app").innerHTML = "";
-    document.getElementById("catCarousel").style.display = "block";
-    return;
-  }
-
-  const results = await fetchBreeds(query);
-
-  displayResults(results);
-});
-
-async function fetchBreeds(query) {
-  const response = await fetch(`https://api.thecatapi.com/v1/breeds/search?q=${query}`);
-  const data = await response.json();
-  return data;
 }
 

@@ -79,23 +79,26 @@
 
 #suggestions {
   list-style: none;
-  margin-top: 5px;
+  margin-top: 20px;
   padding: 0;
   background-color: #fff;
   max-height: 200px;
   overflow-y: auto;
-  border-radius: 5px;
+  border-radius: 15px;
   position: absolute;
   width: 100%;
   z-index: 1000;
- 
+  border: 1px solid black;
+}
+
+#suggestions:empty {
+  display: none;
 }
 
 #suggestions li {
   padding: 8px;
   font-size: 16px;
-  border: 1px solid black;
-  }
+}
 
 #suggestions li:hover {
   background-color: #f0f0f0;
@@ -116,15 +119,17 @@
 }
 
 @media (max-width: 768px) {
+
   #search-icon {
     display: none;
   }
+
   .mobile-only {
     display: block;
     width: 63px;
     height: 53px;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 24px;
     right: 15px;
     z-index: 1200;
@@ -136,7 +141,6 @@
     width: 100%;
     border-radius: 0;
     padding: 10px 15px;
-
     display: none;
     z-index: 1100;
   }
