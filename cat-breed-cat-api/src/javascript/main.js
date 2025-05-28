@@ -20,3 +20,9 @@ window.addEventListener("load", async () => {
     document.getElementById("app").textContent = "Error loading data: " + error.message;
   }
 });
+
+const startYear = 2025;
+const currentYear = new Date().getFullYear();
+const yearSpan = document.getElementById("year-span");
+
+yearSpan.textContent = `${startYear}${currentYear !== startYear ? "–" + currentYear : ""}`;

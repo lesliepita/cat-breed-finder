@@ -4,6 +4,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
+  <title>Cat Breed Finder</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
   <link rel="stylesheet" href="public/assets/css/navstyle.css" />
   <link rel="stylesheet" href="public/assets/css/mainstyle.css">
   <link rel="stylesheet" href="public/assets/css/apistyle.css">
@@ -16,7 +18,7 @@
   <header class="desktop">
     <nav class="nav">
       <div class="overlap">
-        <a href="index.html"><img class="cat" src="public/assets/images/cat-svgrepo-com.svg" alt="Cat logo" /></a>
+        <a href="index.html"><img class="cat" src="public/assets/images/mylogocat.png" alt="Cat logo" /></a>
         <form class="search-bar" role="search">
           <div class="searcher">
             <div class="overlap-group">
@@ -34,7 +36,7 @@
     </nav>
   </header>
   <main>
-    <h1 class="title">Cat Breed Finder</h1>
+    <h1 class="title">Discover Cat Breeds with Cat Breed Finder</h1>
     <div id="catCarousel" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="2700">
       <div class="carousel-inner" id="carousel-inner"></div>
       <button class="carousel-control-prev" type="button" data-bs-target="#catCarousel" data-bs-slide="prev">
@@ -53,10 +55,18 @@
   <aside>
   </aside>
   <footer>
-    <p class="footer-credit">
-      All cat-related content and images on this site are provided by
-      <a href="https://www.thecatapi.com/" target="_blank" rel="noopener noreferrer">TheCatAPI</a>.
-    </p>
+    <div class="footer-credit">
+      <p>
+        All cat-related content and images on this site are provided by
+        <a href="https://www.thecatapi.com/" target="_blank" rel="noopener noreferrer">TheCatAPI</a>.
+      </p>
+      <p class="credit-info">
+        This project is for personal and educational use only, with no commercial purpose.
+      </p>
+      <p>© <span id="year-span"></span> <a href="https://github.com/lesliepita" target="_blank"
+          rel="noopener noreferrer">LP</a> · Cat Breed Finder · All rights reserved · Logo created by <a
+          href="https://github.com/lesliepita" target="_blank" rel="noopener noreferrer">LP</a></p>
+    </div>
     <div class="follow">
       <span class="follow-text">Follow me</span>
       <a href="https://github.com/lesliepita" target="_blank" rel="noopener noreferrer">
@@ -64,6 +74,7 @@
       </a>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script type="module" src="src/javascript/main.js"></script>
 </body>

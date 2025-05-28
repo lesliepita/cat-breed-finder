@@ -9,9 +9,9 @@
 
 .desktop .cat {
   position: absolute;
-  width: 62px;
-  height: 62px;
-  top: 18px;
+  width: 82px;
+  height: 82px;
+  top: 7px;
   left: 32px;
 }
 
@@ -48,7 +48,7 @@
 
 .desktop .vector {
   position: absolute;
-  width: 43px;
+  width: 53px;
   height: 43px;
   top: 7px;
   left: 11px;

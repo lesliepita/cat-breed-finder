@@ -65,7 +65,13 @@ function renderBreed(breed) {
     lifeSpan.classList.add("breed-lifespan");
     infoContainer.appendChild(lifeSpan);
   }
-
+  
+  if (breed.weight && breed.weight.metric) {
+  const weight = document.createElement("p");
+  weight.textContent = `Weight: ${breed.weight.metric} kg`;
+  weight.classList.add("breed-weight");
+  infoContainer.appendChild(weight);
+}
   if (breed.intelligence !== undefined) {
     const intelligence = document.createElement("p");
     intelligence.textContent = `Intelligence: ${breed.intelligence}`;
