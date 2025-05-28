@@ -1,6 +1,11 @@
+<p align="center">
+  <img src="cat-breed-cat-api/public/assets/images/titlereadmelogo.png" alt="Logo" width="400" />
+</p>
+
 ----
-# Find your cat 🐱
-Find Your Cat is a simple website that allows you to explore and search among different cat breeds using the public [TheCatAPI](https://thecatapi.com/). The project offers a friendly and accessible experience for cat lovers, enabling them to discover characteristics, images, and relevant data about each breed.
+
+# Cat Breed Finder 🐱
+Cat Breed Finder is a simple website that allows you to explore and search among different cat breeds using the public [TheCatAPI](https://thecatapi.com/). The project offers a friendly and accessible experience for cat lovers, enabling them to discover characteristics, images, and relevant data about each breed.
 
 This project was developed for personal and educational purposes and uses Vite as a modern development environment to enhance development speed and experience. Additionally, it allows secure integration of an API key through environment variables, facilitating connection to TheCatAPI without exposing sensitive credentials in the source code.
 ## Features
@@ -36,8 +41,8 @@ This project is for personal and educational use only, with no commercial purpos
 ---
 ---
 ---
-# Encuentra Tu Gato 🐱
-Encuentra Tu Gato es una web sencilla que te permite explorar y buscar entre diferentes razas de gatos utilizando la API pública de [TheCatAPI](https://thecatapi.com/). El proyecto ofrece una experiencia amigable y accesible para los amantes de los gatos, permitiéndoles descubrir características, imágenes y datos relevantes sobre cada raza.
+# Cat Breed Finder (Buscador de razas de gatos)🐱
+Cat Breed Finder es una web sencilla que te permite explorar y buscar entre diferentes razas de gatos utilizando la API pública de [TheCatAPI](https://thecatapi.com/). El proyecto ofrece una experiencia amigable y accesible para los amantes de los gatos, permitiéndoles descubrir características, imágenes y datos relevantes sobre cada raza.
 
 Este proyecto fue desarrollado con fines personales y educativos, y utiliza Vite como entorno de desarrollo moderno para mejorar la velocidad y experiencia de desarrollo. Además, permite la integración segura de una API key a través de variables de entorno, facilitando la conexión con TheCatAPI sin exponer credenciales sensibles en el código fuente.
 ## Funcionalidades 
