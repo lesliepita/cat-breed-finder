@@ -20,6 +20,9 @@ This project was developed for personal and educational purposes and uses Vite a
 * Bootstrap
 * JavaScript
 * Vite
+## Design Tools
+* Adobe Photoshop (for the logo)
+* Figma (for prototyping the website design)
 ## Installation
 ```
 1. Clone this repository: 
@@ -57,6 +60,9 @@ Este proyecto fue desarrollado con fines personales y educativos, y utiliza Vite
 * Bootstrap
 * JavaScript
 * Vite
+## Herramientas de diseño
+* Adobe Photoshop (para el logo)
+* Figma (para el prototipado del diseño de la web)
 ## Instalación
 ```
 1. Clona este repositorio:
