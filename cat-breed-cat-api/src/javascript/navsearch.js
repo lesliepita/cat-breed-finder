@@ -32,7 +32,7 @@ export function setupSearch(breedsData, renderList) {
   searchIcon.addEventListener("click", () => {
     input.value = "";
     suggestions.innerHTML = "";
-    renderList(breedsData);
+    renderList([]);
 
     breedsData.forEach(breed => {
       const li = document.createElement("li");

@@ -37,7 +37,7 @@ This project was developed for personal and educational purposes and uses Vite a
 
 ## Credits
 * Content and images provided by [TheCatAPI](https://thecatapi.com/).
-* Web design and development project by lesliepita.
+* Web design and development project by [lesliepita](https://www.linkedin.com/in/lesliepita/).
 ## License
 This project is for personal and educational use only, with no commercial purpose.
 
@@ -76,7 +76,7 @@ Este proyecto fue desarrollado con fines personales y educativos, y utiliza Vite
 ```
 ## Créditos
 * Contenido e imágenes proporcionadas por [TheCatAPI](https://thecatapi.com/).
-* Proyecto de diseño y desarrollo web por lesliepita.
+* Proyecto de diseño y desarrollo web por [lesliepita](https://www.linkedin.com/in/lesliepita/).
 ## Licencia
 Este proyecto es para uso personal y educativo, sin fines comerciales.
 

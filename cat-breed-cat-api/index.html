@@ -15,25 +15,30 @@
 </head>
 
 <body>
-  <header class="desktop">
-    <nav class="nav">
-      <div class="overlap">
-        <a href="index.html"><img class="cat" src="public/assets/images/mylogocat.png" alt="Cat logo" /></a>
-        <form class="search-bar" role="search">
-          <div class="searcher">
-            <div class="overlap-group">
-              <div class="len">
-                <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg"
-                  alt="Search icon" />
+  <header>
+    <div class="desktop">
+      <nav class="nav">
+        <div class="overlap">
+          <a href="index.html">
+            <img class="cat" src="public/assets/images/mylogocat.png" alt="Cat logo" />
+          </a>
+          <img id="mobile-search-icon" class="mobile-only" src="public/assets/images/search-svgrepo-com.svg"
+            alt="Search icon" />
+          <form class="search-bar" role="search">
+            <img id="search-icon" class="vector" src="public/assets/images/search-svgrepo-com.svg" alt="Search icon" />
+            <div class="searcher">
+              <div class="overlap-group">
+                <div class="len">
+                  <input type="text" id="search-input" name="search" placeholder="Search for breed cat"
+                    class="text-wrapper" aria-label="Search for breed cat" />
+                  <ul id="suggestions" class="suggestions-box"></ul>
+                </div>
               </div>
-              <input type="text" id="search-input" name="search" placeholder="Search for breed cat" class="text-wrapper"
-                aria-label="Search for breed cat" />
-              <ul id="suggestions" class="suggestions-box"></ul>
             </div>
-          </div>
-        </form>
-      </div>
-    </nav>
+          </form>
+        </div>
+      </nav>
+    </div>
   </header>
   <main>
     <h1 class="title">Discover Cat Breeds with Cat Breed Finder</h1>
@@ -74,7 +79,6 @@
       </a>
     </div>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script type="module" src="src/javascript/main.js"></script>
 </body>
