@@ -26,7 +26,7 @@ This project was developed for personal and educational purposes and uses Vite a
 ## Installation
 ```
 1. Clone this repository: 
-#git clone https://github.com/your_username/your_repository.git
+#git clone https://github.com/lesliepita/cat-breed-finder.git
 #cd your_repository
 2. Install the dependencies:
 #npm install
@@ -66,7 +66,7 @@ Este proyecto fue desarrollado con fines personales y educativos, y utiliza Vite
 ## Instalación
 ```
 1. Clona este repositorio:
-#git clone https://github.com/tu_usuario/tu_repositorio.git
+#git clone https://github.com/lesliepita/cat-breed-finder.git
 #cd tu_repositorio
 2. Instala las dependencias:
 #npm install
