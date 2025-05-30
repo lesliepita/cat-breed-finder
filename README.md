@@ -13,7 +13,6 @@ This project was developed for personal and educational purposes and uses Vite a
 * Autocomplete suggestions while typing.
 * View images, descriptions, and key characteristics of each breed.
 * Responsive design (mobile and desktop friendly).
-## ⭐ Demo ⭐
 ## Technologies Used
 * HTML5
 * CSS3
@@ -53,7 +52,6 @@ Este proyecto fue desarrollado con fines personales y educativos, y utiliza Vite
 * Autocompletado con sugerencias mientras escribes.
 * Visualización de imágenes, descripciones y características de cada raza.
 * Diseño responsive (adaptado para móvil y escritorio).
-## ⭐ Demo ⭐
 ## Tecnologías utilizadas 
 * HTML5
 * CSS3
